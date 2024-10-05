@@ -20,13 +20,32 @@
     </header>
 
     <main>
-        <section class="hero" id="heroCarrusel">
-            <div class="hero-content">
-                <h1>EQUIPOS DE BOMBEO</h1>
-                <h2>DE LA MÁS ALTA CALIDAD</h2>
-            </div>
-        </section>
-    </main>
+    <section class="hero" id="heroCarrusel">
+        <div class="hero-content">
+            <h1>EQUIPOS DE BOMBEO</h1>
+            <h2>DE LA MÁS ALTA CALIDAD</h2>
+        </div>
+        <!-- Las imágenes del carrusel se insertarán aquí por JavaScript -->
+    </section>
+</main>
+
+<section class="distribuidores">
+    <h2>DISTRIBUIDORES AUTORIZADOS</h2>
+    <div class="card-container">
+        <a href="https://www.acfirepump.com" class="card" target="_blank">
+            <img src="{{ asset('imagenes/ac-fire-pump-logo.png') }}" alt="AC Fire Pump">
+        </a>
+        <a href="https://www.honeywell.com" class="card" target="_blank">
+            <img src="{{ asset('imagenes/honeywell-logo.png') }}" alt="Honeywell">
+        </a>
+        <a href="https://www.cstindustries.com" class="card" target="_blank">
+            <img src="{{ asset('imagenes/cst-storage-logo.png') }}" alt="CST Storage">
+        </a>
+        <a href="https://www.autofirex.com" class="card" target="_blank">
+            <img src="{{ asset('imagenes/autofirex-logo.png') }}" alt="AutoFireX">
+        </a>
+    </div>
+</section>
 
     <footer>
         <div class="contact-info">
@@ -44,8 +63,9 @@
             const heroElement = document.getElementById('heroCarrusel');
             const images = [
                 'url("{{ asset("imagenes/carrusel1.png") }}")',
-                'url("{{ asset("imagenes/carrusel2.jpg") }}")',
-                'url("{{ asset("imagenes/carrusel3.png") }}")'
+                'url("{{ asset("imagenes/carrusel2.png") }}")',
+                'url("{{ asset("imagenes/carrusel3.png") }}")',
+                'url("{{ asset("imagenes/carrusel4.png") }}")'
             ];
             let currentImageIndex = 0;
 

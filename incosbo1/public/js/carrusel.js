@@ -1,16 +1,17 @@
 document.addEventListener('DOMContentLoaded', function() {
     const heroElement = document.getElementById('heroCarrusel');
     const images = [
-        'url("{{ asset("imagenes/carrusel1.png") }}")',
-        'url("{{ asset("imagenes/carrusel2.jpg") }}")',
-        'url("{{ asset("imagenes/carrusel3.png") }}")'
+        '{{ asset("imagenes/carrusel1.png") }}',
+        '{{ asset("imagenes/carrusel2.png") }}',
+        '{{ asset("imagenes/carrusel3.png") }}',
+        '{{ asset("imagenes/carrusel4.png") }}'
     ];
     let currentImageIndex = 0;
 
     function createImageElement(imageUrl) {
         const div = document.createElement('div');
         div.className = 'carrusel-image';
-        div.style.backgroundImage = imageUrl;
+        div.style.backgroundImage = `url("${imageUrl}")`;
         return div;
     }
 
@@ -25,7 +26,7 @@ document.addEventListener('DOMContentLoaded', function() {
         nextImageElement.classList.add('active');
         heroElement.appendChild(nextImageElement);
 
-        if (heroElement.children.length > 2) {
+        if (heroElement.children.length > 3) { // Cambiado de 2 a 3 para incluir .hero-content
             heroElement.removeChild(heroElement.children[1]);
         }
     }
