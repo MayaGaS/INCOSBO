@@ -32,17 +32,32 @@
 <section class="distribuidores">
     <h2>DISTRIBUIDORES AUTORIZADOS</h2>
     <div class="card-container">
-        <a href="https://www.acfirepump.com" class="card" target="_blank">
-            <img src="{{ asset('imagenes/ac-fire-pump-logo.png') }}" alt="AC Fire Pump">
+        <a href="https://www.bombasklassen.com/" class="card" target="_blank">
+            <img src="{{ asset('imagenes/BKlogo.png') }}" alt="KLASSEN">
         </a>
-        <a href="https://www.honeywell.com" class="card" target="_blank">
-            <img src="{{ asset('imagenes/honeywell-logo.png') }}" alt="Honeywell">
+        <a href="https://www.blue-tank.net/inicio" class="card" target="_blank">
+            <img src="{{ asset('imagenes/BTlogo.png') }}" alt="BLUE TANK">
         </a>
-        <a href="https://www.cstindustries.com" class="card" target="_blank">
-            <img src="{{ asset('imagenes/cst-storage-logo.png') }}" alt="CST Storage">
+        <a href="https://www.clarkefire.com/" class="card" target="_blank">
+            <img src="{{ asset('imagenes/Clogo.png') }}" alt="CLARKE">
         </a>
-        <a href="https://www.autofirex.com" class="card" target="_blank">
-            <img src="{{ asset('imagenes/autofirex-logo.png') }}" alt="AutoFireX">
+        <a href="https://franklinelectric.com.mx/" class="card" target="_blank">
+            <img src="{{ asset('imagenes/FElogo.png') }}" alt="FRANKLIN ELECTRONIC">
+        </a>
+        <a href="https://firetrol.com/" class="card" target="_blank">
+            <img src="{{ asset('imagenes/Flogo.png') }}" alt="FIRETROL">
+        </a>
+        <a href="https://product-selection.grundfos.com/mx/categories/pumps?tab=categories" class="card" target="_blank">
+            <img src="{{ asset('imagenes/Glogo.png') }}" alt="GRUNDFOS">
+        </a>
+        <a href="https://www.tornatech.com/" class="card" target="_blank">
+            <img src="{{ asset('imagenes/TTlogo.png') }}" alt="TORNATECH">
+        </a>
+        <a href="https://mortonpumps.com/goulds-pumps/" class="card" target="_blank">
+            <img src="{{ asset('imagenes/WTlogo.png') }}" alt="WATER TECHNOLOGY">
+        </a>
+        <a href="https://www.peerlesspump.com/" class="card" target="_blank">
+            <img src="{{ asset('imagenes/PPlogo.png') }}" alt="PEERLESS PUMP">
         </a>
     </div>
 </section>
