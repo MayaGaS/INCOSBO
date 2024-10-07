@@ -1,186 +1,293 @@
+/* Global Styles */
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+    font-family: Arial, sans-serif; /* Fuente por defecto para todo el cuerpo */
+    margin: 0; /* Elimina los márgenes predeterminados */
+    padding: 0; /* Elimina el padding predeterminado */
 }
 
+/* Header Styles */
 header {
-    background-color: #010150;
-    color: white;
-    padding: 1rem;
+    background-color: #010150; /* Fondo azul oscuro */
+    color: white; /* Texto en blanco */
+    padding: 1rem; /* Espacio interno del header */
+    font-size: 0.9rem; /* Tamaño más pequeño del texto */
 }
 
+/* Navigation Styles */
 nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    display: flex; /* Diseño en flexbox */
+    justify-content: space-between; /* Espacio entre logo y menú */
+    align-items: center; /* Centra verticalmente los elementos */
 }
 
 .logo {
-    height: 40px; /* Ajusta según el tamaño de tu logo */
+    height: 30px; /* Tamaño del logo, ajustable según el diseño */
 }
 
+/* Styles for the navigation menu */
 nav ul {
-    display: flex;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+    display: flex; /* Coloca los elementos del menú en línea */
+    list-style-type: none; /* Elimina las viñetas de la lista */
+    margin: 0; /* Sin margen en el menú */
+    padding: 0; /* Sin padding en el menú */
 }
 
 nav ul li {
-    margin-left: 1rem;
+    margin-left: 1rem; /* Espacio entre los elementos del menú */
 }
 
 nav ul li a {
-    color: white;
-    text-decoration: none;
+    color: white; /* Texto de los enlaces en blanco */
+    text-decoration: none; /* Elimina subrayado de los enlaces */
 }
 
+/* Hero Section */
 .hero {
-    position: relative;
-    height: 60vh;
-    overflow: hidden;
-    background-color: transparent;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    position: relative; /* Posición relativa para que los elementos hijos se posicionen en relación con el hero */
+    height: 60vh; /* Altura de la sección hero */
+    overflow: hidden; /* Oculta el contenido que se sale del contenedor */
+    background-color: transparent; /* Fondo transparente */
+    display: flex; /* Flexbox para centrar el contenido */
+    justify-content: center; /* Centra horizontalmente el contenido */
+    align-items: center; /* Centra verticalmente el contenido */
 }
 
+/* Carrusel de imágenes */
 .carrusel-image {
-    position: absolute;
-    top: 0;
+    position: absolute; /* Las imágenes se superponen sobre el hero */
+    top: 0; 
     left: 0;
-    width: 100%;
-    height: 100%;
-    background-size: contain; /* Asegura que la imagen completa sea visible */
-    background-position: center;
-    background-repeat: no-repeat;
-    opacity: 0;
-    transition: opacity 1s ease-in-out;
+    width: 100%; /* Ocupan todo el ancho */
+    height: 100%; /* Ocupan toda la altura */
+    background-size: contain; /* Asegura que toda la imagen sea visible sin recortarla */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    opacity: 0; /* Inicia con opacidad cero (invisible) */
+    transition: opacity 1s ease-in-out; /* Transición suave para el cambio de imágenes */
 }
 
+/* Clase para la imagen activa en el carrusel */
 .carrusel-image.active {
-    opacity: 1;
+    opacity: 1; /* Imagen visible cuando está activa */
 }
 
+/* Contenido del Hero */
 .hero-content {
-    position: relative;
-    text-align: center;
-    color: white;
-    z-index: 3;
-    padding: 20px;
-    background-color: rgba(0, 0, 0, 0.5);
-    max-width: 80%; /* Limita el ancho del contenido para no cubrir toda la imagen */
+    position: relative; /* Posicionamiento normal, respetando el flujo del documento */
+    text-align: center; /* Texto centrado */
+    color: white; /* Color de texto blanco */
+    z-index: 3; /* Asegura que el contenido esté por encima de las imágenes */
+    padding: 20px; /* Espacio alrededor del contenido */
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente para mejorar la legibilidad del texto */
+    max-width: 80%; /* Limita el ancho del contenido para que no ocupe todo el espacio */
 }
 
-/* Fondo de color sólido detrás de las imágenes para mejorar la visibilidad */
+/* Fondo de color sólido detrás de las imágenes del carrusel */
 .hero::before {
-    content: '';
-    position: absolute;
+    content: ''; /* Se añade un pseudo-elemento vacío */
+    position: absolute; /* Cubre todo el hero */
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: #f0f0f0; /* Color de fondo, ajusta según necesites */
-    z-index: -1;
+    background-color: #f0f0f0; /* Fondo gris claro detrás de las imágenes */
+    z-index: -1; /* Asegura que esté detrás del contenido del hero */
 }
 
+/* Contenedor para centrar el contenido del hero */
 .hero-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 60vh; /* Reduce la altura para hacer la sección más pequeña */
-    background-color: #ffffff; /* Color de fondo para el contenedor */
+    display: flex; /* Flexbox para centrar los elementos */
+    justify-content: center; /* Centrado horizontal */
+    align-items: center; /* Centrado vertical */
+    height: 60vh; /* Altura del contenedor */
+    background-color: #ffffff; /* Fondo blanco */
 }
 
+/* Estilo del logo dentro del contenedor */
 .logo {
-    width: auto; /* Permite que el ancho se ajuste automáticamente */
-    height: 40px; /* Ajusta esta altura según lo que necesites */
-    object-fit: contain; /* Mantiene la proporción de la imagen */
-    margin-right: 20px; /* Espacio entre el logo y los enlaces */
+    width: auto; /* El ancho se ajusta automáticamente */
+    height: 40px; /* Altura fija del logo */
+    object-fit: contain; /* Mantiene la proporción del logo */
+    margin-right: 20px; /* Espacio a la derecha del logo */
 }
 
-.hero::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-}
-
+/* Títulos dentro del hero */
 .hero h1, .hero h2 {
-    margin: 0;
-    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    margin: 0; /* Sin márgenes alrededor de los títulos */
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5); /* Sombra para mejorar la legibilidad del texto */
 }
 
+/* Estilos del footer */
 footer {
     background-color: #000080;
     color: white;
-    padding: 1rem;
+    padding: 2rem;
     text-align: center;
+    position: relative; /* Para posicionar la nueva imagen en la parte inferior izquierda */
+}
+
+/* Centrar y ajustar el tamaño de la información del footer */
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.9rem; /* Tamaño más pequeño del texto */
+}
+
+/* Mantener el color blanco para todos los textos e íconos */
+footer a, 
+footer p, 
+footer i {
+    color: white;
+    /* text-decoration: none; /* Elimina el subrayado de los enlaces */
+}
+.contact-info, .address {
+    margin-bottom: 1rem;
+}
+
+/* Estilos para el logo del footer */
+.footer-logo {
+    width: 80px; /* Tamaño más pequeño del logo */
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+/* Estilos para la nueva imagen en la esquina inferior izquierda */
+.footer-left-image {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    width: 60px; /* Ajusta el tamaño de la imagen según lo necesites */
+    height: auto;
+}
+
+/* Estilos para los íconos de redes sociales */
+.social-icons {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.social-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;  /* Ajustar el tamaño del botón */
+    height: 30px; /* Ajustar el tamaño del botón */
+    border-radius: 50%;
+    color: white;
+    font-size: 1rem; /* Tamaño del icono más pequeño */
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+/* Facebook */
+.social-button.facebook {
+    background-color: #3b5998;
+}
+
+.social-button.facebook:hover {
+    background-color: #2d4373;
+}
+
+/* Instagram */
+.social-button.instagram {
+    background-color: #E4405F;
+}
+
+.social-button.instagram:hover {
+    background-color: #bc2a8d;
+}
+
+/* X (nuevo Twitter) */
+.social-button.x-twitter {
+    background-color: #000000;
+}
+
+.social-button.x-twitter:hover {
+    background-color: #1a1a1a;
+}
+
+/* WhatsApp */
+.social-button.whatsapp {
+    background-color: #25D366;
+}
+
+.social-button.whatsapp:hover {
+    background-color: #1da851;
 }
 
 /* *******************DISTRIBUIDORES******************** */
 
+/* Sección de distribuidores */
 .distribuidores {
-    padding: 2rem;
-    text-align: center;
-    background-color: #f5f5f5;
+    padding: 2rem; /* Espacio alrededor del contenido */
+    text-align: center; /* Centra el texto */
+    background-color: #f5f5f5; /* Fondo gris claro */
 }
 
+/* Título de la sección distribuidores */
 .distribuidores h2 {
-    margin-bottom: 2rem;
-    color: #333;
+    margin-bottom: 2rem; /* Espacio debajo del título */
+    color: #333; /* Texto en gris oscuro */
 }
 
+/* Contenedor de las tarjetas de distribuidores */
 .card-container {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 2rem;
+    display: flex; /* Flexbox para organizar las tarjetas */
+    justify-content: center; /* Centra las tarjetas horizontalmente */
+    flex-wrap: wrap; /* Permite que las tarjetas se ajusten a múltiples líneas si es necesario */
+    gap: 2rem; /* Espacio entre las tarjetas */
 }
 
+/* Tarjetas individuales para distribuidores */
 .card {
-    width: 200px;
-    height: 200px;
-    background-color: white;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
-    position: relative;
-    transition: transform 0.3s ease;
+    width: 200px; /* Ancho fijo de la tarjeta */
+    height: 200px; /* Altura fija de la tarjeta */
+    background-color: white; /* Fondo blanco */
+    border-radius: 10px; /* Esquinas redondeadas */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave debajo de la tarjeta */
+    display: flex; /* Flexbox para centrar el contenido */
+    align-items: center; /* Centra verticalmente */
+    justify-content: center; /* Centra horizontalmente */
+    overflow: hidden; /* Oculta contenido que se desborde */
+    position: relative; /* Posición relativa para efectos hover */
+    transition: transform 0.3s ease; /* Transición suave al hacer hover */
 }
 
+/* Imagen dentro de la tarjeta */
 .card img {
-    max-width: 80%;
-    max-height: 80%;
-    transition: transform 0.3s ease;
+    max-width: 80%; /* La imagen ocupa el 80% del ancho de la tarjeta */
+    max-height: 80%; /* La imagen ocupa el 80% de la altura de la tarjeta */
+    transition: transform 0.3s ease; /* Transición suave para efectos hover */
 }
 
+/* Efecto hover en las tarjetas */
 .card::before {
-    content: '';
-    position: absolute;
+    content: ''; /* Pseudo-elemento vacío */
+    position: absolute; /* Cubre toda la tarjeta */
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(255, 0, 0, 0.2);
-    opacity: 0;
-    transition: opacity 0.3s ease;
+    background-color: rgba(255, 0, 0, 0.2); /* Capa roja semitransparente */
+    opacity: 0; /* Inicia invisible */
+    transition: opacity 0.3s ease; /* Transición suave de opacidad */
 }
 
+/* Efecto hover al mover el cursor sobre la tarjeta */
 .card:hover {
-    transform: translateY(-5px);
+    transform: translateY(-5px); /* Eleva ligeramente la tarjeta */
 }
 
+/* Muestra la capa roja semitransparente al hacer hover */
 .card:hover::before {
-    opacity: 1;
+    opacity: 1; /* Hace visible la capa roja */
 }
 
+/* Efecto hover sobre la imagen dentro de la tarjeta */
 .card:hover img {
-    transform: scale(1.1);
+    transform: scale(1.1); /* Aumenta ligeramente el tamaño de la imagen */
 }
