@@ -1,3 +1,4 @@
+                /* ******************** INTERFAZ NOSOTROS ******************** */
 /* Global Styles */
 body {
     font-family: Arial, sans-serif; /* Fuente por defecto para todo el cuerpo */
@@ -43,27 +44,36 @@ nav ul li a {
 
 /* Hero Section */
 .hero {
-    position: relative; /* Posición relativa para que los elementos hijos se posicionen en relación con el hero */
-    height: 60vh; /* Altura de la sección hero */
-    overflow: hidden; /* Oculta el contenido que se sale del contenedor */
-    background-color: transparent; /* Fondo transparente */
-    display: flex; /* Flexbox para centrar el contenido */
-    justify-content: center; /* Centra horizontalmente el contenido */
-    align-items: center; /* Centra verticalmente el contenido */
+    position: relative;
+    height: 60vh;
+    width: 100%;
+    overflow: hidden;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Carrusel de imágenes */
+/* Carrusel de imágenes */
 .carrusel-image {
-    position: absolute; /* Las imágenes se superponen sobre el hero */
+    position: absolute;
     top: 0; 
     left: 0;
-    width: 100%; /* Ocupan todo el ancho */
-    height: 100%; /* Ocupan toda la altura */
-    background-size: contain; /* Asegura que toda la imagen sea visible sin recortarla */
-    background-position: center; /* Centra la imagen */
-    background-repeat: no-repeat; /* Evita que la imagen se repita */
-    opacity: 0; /* Inicia con opacidad cero (invisible) */
-    transition: opacity 1s ease-in-out; /* Transición suave para el cambio de imágenes */
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.hero {
+    position: relative;
+    height: 60vh; /* Puedes ajustar esto según tus necesidades */
+    width: 100%; /* Asegura que ocupe todo el ancho */
+    overflow: hidden;
 }
 
 /* Clase para la imagen activa en el carrusel */
@@ -219,7 +229,7 @@ footer i {
     background-color: #1da851;
 }
 
-/* *******************DISTRIBUIDORES******************** */
+                /* *******************DISTRIBUIDORES******************** */
 
 /* Sección de distribuidores */
 .distribuidores {
@@ -290,4 +300,43 @@ footer i {
 /* Efecto hover sobre la imagen dentro de la tarjeta */
 .card:hover img {
     transform: scale(1.1); /* Aumenta ligeramente el tamaño de la imagen */
+}
+
+                /* ******************** INTERFAZ NOSOTROS ******************** */
+/* Hero Section */
+.hero {
+    background-image: url('path-to-your-background-image.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Mission and Vision Section */
+.mission-vision {
+    display: flex;
+    padding: 50px 20px;
+}
+
+.mission, .vision {
+    flex: 1;
+    padding: 0 20px;
+}
+
+.icon {
+    font-size: 48px;
+    color: #ec0808;
+    margin-bottom: 20px;
 }

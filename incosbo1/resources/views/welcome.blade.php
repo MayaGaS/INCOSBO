@@ -36,6 +36,7 @@
                 <!-- Subtítulo -->
                 <h2>DE LA MÁS ALTA CALIDAD</h2>
             </div>
+            
             <!-- El carrusel de imágenes será controlado mediante JavaScript, las imágenes serán dinámicamente insertadas aquí -->
         </section>
     </main>
@@ -111,9 +112,9 @@
             const heroElement = document.getElementById('heroCarrusel');
             // Array con las URLs de las imágenes que se mostrarán en el carrusel
             const images = [
-                'url("{{ asset("imagenes/carrusel1.png") }}")',
-                'url("{{ asset("imagenes/carrusel2.png") }}")',
-                'url("{{ asset("imagenes/carrusel3.png") }}")',
+                'url("{{ asset("imagenes/carrusel1.jpg") }}")',
+                'url("{{ asset("imagenes/carrusel2.jpg") }}")',
+                'url("{{ asset("imagenes/carrusel3.jpg") }}")',
                 'url("{{ asset("imagenes/carrusel4.png") }}")'
             ];
             // Índice que representa la imagen actual

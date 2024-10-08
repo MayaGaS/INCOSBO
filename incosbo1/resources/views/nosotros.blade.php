@@ -26,10 +26,26 @@
         </nav>
     </header>
 
+    <div class="hero">
+    <div class="hero-content">
+        <h1>INCOSBO</h1>
+        <p>En su afán de ofrecer y expandir su oferta comercial, ha hecho especial énfasis en establecer vínculos comerciales con las marcas más representativas del segmento. Esto nos permite ampliar el rango de soluciones con el mejor costo-beneficio.</p>
+    </div>
+</div>
+        </div>
+        <div class="mission-vision">
+            <div class="mission">
+                <div class="icon"><i class="fas fa-bullseye"></i></div>
+                <h2>Nuestra Misión</h2>
+                <p>Ser una empresa rentable buscando un crecimiento estable en la comercialización de nuestros productos y servicios, siendo la mejor calificada y reconocida en México por calidad y servicio de nuestro equipo.</p>
+            </div>
+            <div class="vision">
+                <div class="icon"><i class="fas fa-eye"></i></div>
+                <h2>Nuestra Visión</h2>
+                <p>Consolidarse como una empresa competitiva a nivel nacional, siendo la primera alternativa para nuestros clientes, con el desarrollo de nuestros equipos, manteniendo una filosofía de mejora continua que nos permita destacar en el sector industrial y del agua</p>
+            </div>
+        </div>
     
-
-    
-
     <!-- Pie de página con la información de contacto -->
     <footer>
     <div class="footer-content">
@@ -60,3 +76,4 @@
     
 </body>
 </html>
+
