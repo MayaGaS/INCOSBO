@@ -1,29 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
     const heroElement = document.getElementById('heroCarrusel');
     const heroContent = document.getElementById('heroContent');
-    
-    const carouselContent = [
-        {
-            image: 'url("{{ asset("imagenes/carrusel1.jpg") }}")',
-            title: 'EQUIPOS DE BOMBEO',
-            subtitle: 'DE LA MÁS ALTA CALIDAD'
-        },
-        {
-            image: 'url("{{ asset("imagenes/carrusel2.jpg") }}")',
-            title: 'SOLUCIONES INNOVADORAS',
-            subtitle: 'PARA CADA NECESIDAD'
-        },
-        {
-            image: 'url("{{ asset("imagenes/carrusel3.jpg") }}")',
-            title: 'TECNOLOGÍA DE PUNTA',
-            subtitle: 'EN SISTEMAS DE BOMBEO'
-        },
-        {
-            image: 'url("{{ asset("imagenes/carrusel4.png") }}")',
-            title: 'SERVICIO CONFIABLE',
-            subtitle: 'Y SOPORTE TÉCNICO ESPECIALIZADO'
-        }
-    ];
 
     let currentIndex = 0;
 

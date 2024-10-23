@@ -33,6 +33,7 @@
     </div>
 </div>
         </div>
+
         <div class="mission-vision">
             <div class="mission">
                 <div class="icon"><i class="fas fa-bullseye"></i></div>
@@ -45,6 +46,78 @@
                 <p>Consolidarse como una empresa competitiva a nivel nacional, siendo la primera alternativa para nuestros clientes, con el desarrollo de nuestros equipos, manteniendo una filosofía de mejora continua que nos permita destacar en el sector industrial y del agua</p>
             </div>
         </div>
+
+        <div class="certifications">
+    <h2>Nos llena de orgullo contar con diferentes certificaciones y premios, entre los cuales resaltan:</h2>
+    <div class="awards-container">
+        <div class="award">
+            <div class="award-icon">
+                <i class="fas fa-medal"></i>
+            </div>
+            <div class="award-details">
+                <span class="award-years">2015 - 2020</span>
+                <span class="award-years">2021 - 2022</span>
+                <span class="award-title">Distribuidor Internacional</span>
+            </div>
+        </div>
+        
+        <div class="award">
+            <div class="award-icon">
+                <i class="fas fa-trophy"></i>
+            </div>
+            <div class="award-details">
+                <span class="award-years">2018</span>
+                <span class="award-title">Distribuidor Internacional</span>
+                <span class="award-subtitle">con mayor ventas</span>
+            </div>
+        </div>
+
+        <div class="award">
+            <div class="award-icon">
+                <i class="fas fa-award"></i>
+            </div>
+            <div class="award-details">
+                <span class="award-years">Ranking 2017</span>
+                <span class="award-title">1er Lugar</span>
+                <span class="award-subtitle">Zona Noroeste</span>
+            </div>
+        </div>
+
+        <div class="award">
+            <div class="award-icon">
+                <i class="fas fa-star"></i>
+            </div>
+            <div class="award-details">
+                <span class="award-years">Ranking 2017</span>
+                <span class="award-title">2do Lugar</span>
+                <span class="award-subtitle">Nacional</span>
+            </div>
+        </div>
+
+        <div class="award">
+            <div class="award-icon">
+                <i class="fas fa-crown"></i>
+            </div>
+            <div class="award-details">
+                <span class="award-years">Ranking 2017</span>
+                <span class="award-title">3er Lugar</span>
+                <span class="award-subtitle">América Latina</span>
+            </div>
+        </div>
+
+        <div class="award">
+            <div class="award-icon">
+                <i class="fas fa-certificate"></i>
+            </div>
+            <div class="award-details">
+                <span class="award-years">2014</span>
+                <span class="award-title">Premio</span>
+                <span class="award-subtitle">Baja California a la Calidad</span>
+                <span class="award-subtitle">y Competitividad</span>
+            </div>
+        </div>
+    </div>
+</div>
     
     <!-- Pie de página con la información de contacto -->
     <footer>
