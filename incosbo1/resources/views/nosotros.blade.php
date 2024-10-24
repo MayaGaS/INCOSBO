@@ -34,6 +34,17 @@
 </div>
         </div>
 
+        <div class="about-section">
+    <div class="about-content">
+        <h2>Sobre Nosotros</h2>
+        <p>INCOSBO es una empresa líder en el sector de equipos de bombeo, comprometida con la excelencia y la innovación. Con años de experiencia en el mercado, nos hemos consolidado como un referente en la industria gracias a nuestra dedicación a la calidad y el servicio al cliente.</p>
+        <p>Nuestro equipo de profesionales altamente capacitados trabaja constantemente para ofrecer las mejores soluciones en equipos de bombeo, adaptándonos a las necesidades específicas de cada cliente y garantizando resultados óptimos en cada proyecto.</p>
+    </div>
+    <div class="about-image">
+        <img src="{{ asset('imagenes/sn.png') }}" alt="Equipo INCOSBO">
+    </div>
+</div>
+
         <div class="mission-vision">
             <div class="mission">
                 <div class="icon"><i class="fas fa-bullseye"></i></div>
