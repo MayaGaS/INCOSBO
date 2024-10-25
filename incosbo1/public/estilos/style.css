@@ -1,45 +1,88 @@
                 /* ******************** INTERFAZ NOSOTROS ******************** */
 /* Global Styles */
 body {
-    font-family: Arial, sans-serif; /* Fuente por defecto para todo el cuerpo */
-    margin: 0; /* Elimina los márgenes predeterminados */
-    padding: 0; /* Elimina el padding predeterminado */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 /* Header Styles */
 header {
-    background-color: #010150; /* Fondo azul oscuro */
-    color: white; /* Texto en blanco */
-    padding: 1rem; /* Espacio interno del header */
-    font-size: 0.9rem; /* Tamaño más pequeño del texto */
+    background-color: #010150;
+    color: white;
+    padding: 1rem;
+    font-size: 0.9rem;
 }
 
 /* Navigation Styles */
 nav {
-    display: flex; /* Diseño en flexbox */
-    justify-content: space-between; /* Espacio entre logo y menú */
-    align-items: center; /* Centra verticalmente los elementos */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .logo {
-    height: 30px; /* Tamaño del logo, ajustable según el diseño */
+    height: 30px;
 }
 
 /* Styles for the navigation menu */
 nav ul {
-    display: flex; /* Coloca los elementos del menú en línea */
-    list-style-type: none; /* Elimina las viñetas de la lista */
-    margin: 0; /* Sin margen en el menú */
-    padding: 0; /* Sin padding en el menú */
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
 nav ul li {
-    margin-left: 1rem; /* Espacio entre los elementos del menú */
+    margin-left: 1rem;
+    position: relative; /* Para el posicionamiento del dropdown */
 }
 
 nav ul li a {
-    color: white; /* Texto de los enlaces en blanco */
-    text-decoration: none; /* Elimina subrayado de los enlaces */
+    color: white;
+    text-decoration: none;
+    padding: 15px 10px;
+    display: block;
+}
+
+/* Dropdown Styles */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #010150;
+    min-width: 200px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 4px;
+    top: 100%;
+    left: 0;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 0.85rem;
+}
+
+.dropdown-content a:hover {
+    background-color: #020280;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropbtn {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.fa-caret-down {
+    font-size: 12px;
+    margin-left: 4px;
 }
 
 /* Hero Section */
@@ -52,6 +95,44 @@ nav ul li a {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    nav ul {
+        flex-direction: column;
+        width: 100%;
+        margin-top: 1rem;
+    }
+
+    nav ul li {
+        margin: 0;
+        width: 100%;
+    }
+
+    nav ul li a {
+        padding: 10px 0;
+    }
+
+    .dropdown-content {
+        position: static;
+        width: 100%;
+        background-color: #020280;
+        box-shadow: none;
+    }
+
+    .dropdown-content a {
+        padding-left: 2rem;
+    }
+
+    .logo {
+        margin-bottom: 1rem;
+    }
 }
 
 /* Carrusel de imágenes */
@@ -427,7 +508,7 @@ footer i {
     line-height: 1.4;
 }
 
-/* CSS - Add these styles to your existing CSS */
+/* Info Sobre Nosotros */
 .about-section {
     display: flex;
     padding: 50px 20px;

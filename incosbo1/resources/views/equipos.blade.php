@@ -12,19 +12,28 @@
 <body>
     <!-- Cabecera de la página -->
     <header>
-        <nav>
-            <!-- Logo de la empresa -->
-            <img src="{{ asset('imagenes/logo.png') }}" alt="Logo" class="logo">
-            <!-- Menú de navegación -->
-            <ul>
+    <nav>
+        <!-- Logo de la empresa -->
+        <img src="{{ asset('imagenes/logo.png') }}" alt="Logo" class="logo">
+        <!-- Menú de navegación -->
+        <ul>
             <li><a href="#">INICIO</a></li>
-                <li><a href="nosotros">NOSOTROS</a></li>
-                <li><a href="equipos">EQUIPOS</a></li>
-                <li><a href="servicios">SERVICIOS</a></li>
-                <li><a href="contacto">CONTACTO</a></li>
-            </ul>
-        </nav>
-    </header>
+            <li><a href="nosotros">NOSOTROS</a></li>
+            <li class="dropdown">
+                <a href="equipos" class="dropbtn">EQUIPOS <i class="fas fa-caret-down"></i></a>
+                <div class="dropdown-content">
+                    <a href="equipos">Bombas Centrífugas</a>
+                    <a href="equipos">Bombas Sumergibles</a>
+                    <a href="equipos">Bombas de Vacío</a>
+                    <a href="equipos">Bombas Dosificadoras</a>
+                    <a href="equipos">Bombas Contra Incendio</a>
+                </div>
+            </li>
+            <li><a href="servicios">SERVICIOS</a></li>
+            <li><a href="contacto">CONTACTO</a></li>
+        </ul>
+    </nav>
+</header>
 
     
 
