@@ -22,11 +22,8 @@
             <li class="dropdown">
                 <a href="equipos" class="dropbtn">EQUIPOS <i class="fas fa-caret-down"></i></a>
                 <div class="dropdown-content">
-                    <a href="#">Bombas Centrífugas</a>
-                    <a href="#">Bombas Sumergibles</a>
-                    <a href="#">Bombas de Vacío</a>
-                    <a href="#">Bombas Dosificadoras</a>
-                    <a href="#">Bombas Contra Incendio</a>
+                <a href="#">Hidroneumáticos</a>
+                <a href="#">Contra-Incendios</a>
                 </div>
             </li>
             <li><a href="servicios">SERVICIOS</a></li>

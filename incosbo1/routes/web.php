@@ -10,8 +10,12 @@ Route::get('/nosotros', function () {
     return view('nosotros');
 });
 
-Route::get('/equipos', function () {
-    return view('equipos');
+Route::get('/hidroneumaticos', function () {
+    return view('hidroneumaticos');
+});
+
+Route::get('/contraincendios', function () {
+    return view('contraincendios');
 });
 
 Route::get('/servicios', function () {
