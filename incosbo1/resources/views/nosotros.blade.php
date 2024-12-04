@@ -17,13 +17,13 @@
         <img src="{{ asset('imagenes/logo.png') }}" alt="Logo" class="logo">
         <!-- Menú de navegación -->
         <ul>
-            <li><a href="#">INICIO</a></li>
+            <li><a href="/">INICIO</a></li>
             <li><a href="nosotros">NOSOTROS</a></li>
             <li class="dropdown">
-                <a href="equipos" class="dropbtn">EQUIPOS <i class="fas fa-caret-down"></i></a>
+                <a class="dropbtn">EQUIPOS <i class="fas fa-caret-down"></i></a>
                 <div class="dropdown-content">
-                <a href="#">Hidroneumáticos</a>
-                <a href="#">Contra-Incendios</a>
+                <a href="hidroneumaticos">Hidroneumáticos</a>
+                <a href="contraincendios">Contra-Incendios</a>
                 </div>
             </li>
             <li><a href="servicios">SERVICIOS</a></li>

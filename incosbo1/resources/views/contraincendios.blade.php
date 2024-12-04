@@ -17,13 +17,13 @@
         <img src="{{ asset('imagenes/logo.png') }}" alt="Logo" class="logo">
         <!-- Menú de navegación -->
         <ul>
-            <li><a href="#">INICIO</a></li>
+            <li><a href="/">INICIO</a></li>
             <li><a href="nosotros">NOSOTROS</a></li>
             <li class="dropdown">
-                <a href="equipos" class="dropbtn">EQUIPOS <i class="fas fa-caret-down"></i></a>
+                <a class="dropbtn">EQUIPOS <i class="fas fa-caret-down"></i></a>
                 <div class="dropdown-content">
-                    <a href="#">Hidroneumáticos</a>
-                    <a href="#">Contra-Incendios</a>
+                <a href="hidroneumaticos">Hidroneumáticos</a>
+                <a href="contraincendios">Contra-Incendios</a>
                 </div>
             </li>
             <li><a href="servicios">SERVICIOS</a></li>
@@ -34,12 +34,12 @@
 
 <!-- HTML para la sección de cards de PDF -->
 <section class="pdf-cards-section">
-    <h2 class="section-title">Equipos Contra-Incendios</h2>
+    <h2 class="section-title">Equipos Hidroneumáticos</h2>
     <div class="pdf-cards-container">
         <!-- Card 1 -->
         <div class="pdf-card">
             <div class="pdf-card-image">
-                <img src="{{ asset('imagenes/1c.png') }}" alt="Manual de Usuario">
+                <img src="{{ asset('imagenes/1h.png') }}" alt="Manual de Usuario">
                 <div class="download-overlay">
                     <i class="fas fa-download"></i>
                 </div>
@@ -56,7 +56,7 @@
         <!-- Card 2 -->
         <div class="pdf-card">
             <div class="pdf-card-image">
-                <img src="{{ asset('imagenes/2c.png') }}" alt="Catálogo de Productos">
+                <img src="{{ asset('imagenes/2h.png') }}" alt="Catálogo de Productos">
                 <div class="download-overlay">
                     <i class="fas fa-download"></i>
                 </div>
@@ -73,7 +73,7 @@
         <!-- Card 3 -->
         <div class="pdf-card">
             <div class="pdf-card-image">
-                <img src="{{ asset('imagenes/3c.png') }}" alt="Ficha Técnica">
+                <img src="{{ asset('imagenes/3h.png') }}" alt="Ficha Técnica">
                 <div class="download-overlay">
                     <i class="fas fa-download"></i>
                 </div>
@@ -90,7 +90,7 @@
         <!-- Card 4 -->
         <div class="pdf-card">
             <div class="pdf-card-image">
-                <img src="{{ asset('imagenes/4c.png') }}" alt="Ficha Técnica">
+                <img src="{{ asset('imagenes/4h.png') }}" alt="Ficha Técnica">
                 <div class="download-overlay">
                     <i class="fas fa-download"></i>
                 </div>
