@@ -20,7 +20,7 @@
             <li><a href="/">INICIO</a></li>
             <li><a href="nosotros">NOSOTROS</a></li>
             <li class="dropdown">
-                <a href="equipos" class="dropbtn">EQUIPOS <i class="fas fa-caret-down"></i></a>
+                <a class="dropbtn">EQUIPOS <i class="fas fa-caret-down"></i></a>
                 <div class="dropdown-content">
                 <a href="hidroneumaticos">Hidroneumáticos</a>
                 <a href="contraincendios">Contra-Incendios</a>
@@ -33,10 +33,62 @@
     </nav>
 </header>
 
-    
+<!-- HTML para la sección de cards de PDF -->
+<section class="pdf-cards-section">
+    <h2 class="section-title">LIMF</h2>
+    <div class="pdf-cards-container">
+        <!-- Card 1 -->
+        <div class="pdf-card">
+            <div class="pdf-card-image">
+                <img src="{{ asset('imagenes/1l.png') }}" alt="Manual de Usuario">
+                <div class="download-overlay">
+                    <i class="fas fa-download"></i>
+                </div>
+            </div>
+            <div class="pdf-card-content">
+                <h3>Bombas Contra Incendio</h3>
+                <p> Horizontales de Carcaza Bipartida, Turbina Vertical, En-Línea y Succión al Extremo</p>
+                <a href="{{ asset('documentos/B-1500_Fire Product Line_4-pg Brochure.pdf') }}" download class="download-button">
+                    <i class="fas fa-file-pdf"></i> Descargar PDF
+                </a>
+            </div>
+        </div>
 
-    
+        <!-- Card 2 -->
+        <div class="pdf-card">
+            <div class="pdf-card-image">
+                <img src="{{ asset('imagenes/2l.png') }}" alt="Manual de Usuario">
+                <div class="download-overlay">
+                    <i class="fas fa-download"></i>
+                </div>
+            </div>
+            <div class="pdf-card-content">
+                <h3>Soluciones de Bombas Contra Incendios de Grundfos</h3>
+                <p></p>
+                <a href="{{ asset('documentos/L001_Peerless FIre_B-1500 brochure Low res.pdf') }}" download class="download-button">
+                    <i class="fas fa-file-pdf"></i> Descargar PDF
+                </a>
+            </div>
+        </div>
 
+        <!-- Card 3 -->
+        <div class="pdf-card">
+            <div class="pdf-card-image">
+                <img src="{{ asset('imagenes/3l.png') }}" alt="Ficha Técnica">
+                <div class="download-overlay">
+                    <i class="fas fa-download"></i>
+                </div>
+            </div>
+            <div class="pdf-card-content">
+                <h3>PES</h3>
+                <p>Peerleess Engineered Systems</p>
+                <a href="{{ asset('documentos/PEERLESS-Brochure_9-08.pdf') }}" download class="download-button">
+                    <i class="fas fa-file-pdf"></i> Descargar PDF
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
     <!-- Pie de página con la información de contacto -->
     <footer>
     <div class="footer-content">

@@ -24,6 +24,7 @@
                 <div class="dropdown-content">
                 <a href="hidroneumaticos">Hidroneumáticos</a>
                 <a href="contraincendios">Contra-Incendios</a>
+                <a href="limf">LIMF</a>
                 </div>
             </li>
             <li><a href="servicios">SERVICIOS</a></li>
@@ -45,9 +46,9 @@
                 </div>
             </div>
             <div class="pdf-card-content">
-                <h3>Equipo de Paquete Contra-Incendio</h3>
-                <p> El paquete Contra-incendio INCOSBO incluye 2 o 3 bombas (diésel, eléctrica y jockey) conectadas a un cabezal común para suministrar caudal a redes de hidrantes y/o rociadores.</p>
-                <a href="{{ asset('documentos/Ficha Técnica Equipo de Paquete Contraincendio.pdf') }}" download class="download-button">
+                <h3>EQUIPO HIDRONEUMÁTICO DE PRESIÓN CONSTANTE A BASE DE VELOCIDAD VARIABLE DUPLEX-TRIPLEX</h3>
+                <p> El tablero de control INCOSBO para sistemas hidroneumáticos asegura un suministro de agua estable y constante, manteniendo la presión según el diseño del sistema.</p>
+                <a href="{{ asset('documentos/Ficha Técnica Hidroneumpatico VV.pdf') }}" download class="download-button">
                     <i class="fas fa-file-pdf"></i> Descargar PDF
                 </a>
             </div>
@@ -62,9 +63,9 @@
                 </div>
             </div>
             <div class="pdf-card-content">
-                <h3>Contra-Incendio Diesel TC-INCSB-CI-D2M-TCP</h3>
-                <p>Incluye un puerto Ethernet con servidor MODBUS TCP/IP, permitiendo fácil integración a sistemas de supervisión para reportes, gráficos de tendencias, históricos y notificación de alarmas.</p>
-                <a href="{{ asset('documentos/Ficha Técnica TC-INCSB-CI-D2M-TCP.pdf') }}" download class="download-button">
+                <h3>TABLERO DE CONTROL PARA SISTEMA DE TRASVASE</h3>
+                <p>Los tableros eléctricos INCOSBO están diseñados para controlar bombas en aplicaciones como trasvase de agua de cisternas a tanques elevados y trenes de filtrado para tratamiento de agua.</p>
+                <a href="{{ asset('documentos/Ficha Técnica Tablero de Trasvase.pdf') }}" download class="download-button">
                     <i class="fas fa-file-pdf"></i> Descargar PDF
                 </a>
             </div>
@@ -79,9 +80,9 @@
                 </div>
             </div>
             <div class="pdf-card-content">
-                <h3>Tablero de Control para Bomba CI Jockey</h3>
-                <p>Permite gestionar el arranque y paro de una bomba Jockey para mantener la presión en redes contra incendios, cumpliendo con los estándares de la NFPA 20. Está diseñado para motores de baja potencia con control a tensión plena.</p>
-                <a href="{{ asset('documentos/Ficha Técnica Tablero Jockey.pdf') }}" download class="download-button">
+                <h3>TABLERO DE CONTROL PARA SISTEMA HIDRONEUMÁTICO O RIEGO</h3>
+                <p>Los tableros eléctricos INCOSBO están diseñados para controlar motobombas en redes hidrosanitarias con suministro desde cisternas, ofreciendo confiabilidad y adaptabilidad.</p>
+                <a href="{{ asset('documentos/Ficha Técnica Tablero Hidroneumático o Riego.pdf') }}" download class="download-button">
                     <i class="fas fa-file-pdf"></i> Descargar PDF
                 </a>
             </div>
@@ -96,9 +97,26 @@
                 </div>
             </div>
             <div class="pdf-card-content">
-                <h3>Tablero de Control para Bomba CI Eléctrica</h3>
-                <p>Cumple con los requisitos de la NFPA 20 y está diseñado para operar una bomba con motor eléctrico en sistemas contra incendios.</p>
-                <a href="{{ asset('documentos/Ficha Técnica Tablero Bomba CI Eléctrica.pdf') }}" download class="download-button">
+                <h3>TABLERO DE CONTROL PARA LLENADO DE CISTERNA</h3>
+                <p>Los tableros INCB-TCA-110-S-P INCOSBO controlan el llenado de cisternas o tanques en redes de suministro de agua, con un diseño confiable y adaptable.</p>
+                <a href="{{ asset('documentos/Ficha Técnica Tablero Solenoide.pdf') }}" download class="download-button">
+                    <i class="fas fa-file-pdf"></i> Descargar PDF
+                </a>
+            </div>
+        </div>
+
+        <!-- Card 5 -->
+        <div class="pdf-card">
+            <div class="pdf-card-image">
+                <img src="{{ asset('imagenes/5h.png') }}" alt="Ficha Técnica">
+                <div class="download-overlay">
+                    <i class="fas fa-download"></i>
+                </div>
+            </div>
+            <div class="pdf-card-content">
+                <h3>TABLERO DE CONTROL PARA VACIADO DE CÁRCAMO</h3>
+                <p>Los tableros eléctricos INCOSBO automatizan el achique de depósitos o cárcamos usando peras de nivel, con opción para alternar o activar las bombas simultáneamente.</p>
+                <a href="{{ asset('documentos/Ficha Técnica Tablero Vaciado de Cárcamo.pdf') }}" download class="download-button">
                     <i class="fas fa-file-pdf"></i> Descargar PDF
                 </a>
             </div>

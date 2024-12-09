@@ -25,3 +25,7 @@ Route::get('/servicios', function () {
 Route::get('/contacto', function () {
     return view('contacto');
 });
+
+Route::get('/limf', function () {
+    return view('limf');
+});

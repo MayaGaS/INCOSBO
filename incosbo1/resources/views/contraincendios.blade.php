@@ -24,6 +24,7 @@
                 <div class="dropdown-content">
                 <a href="hidroneumaticos">Hidroneumáticos</a>
                 <a href="contraincendios">Contra-Incendios</a>
+                <a href="limf">LIMF</a>
                 </div>
             </li>
             <li><a href="servicios">SERVICIOS</a></li>
@@ -34,19 +35,19 @@
 
 <!-- HTML para la sección de cards de PDF -->
 <section class="pdf-cards-section">
-    <h2 class="section-title">Equipos Hidroneumáticos</h2>
+    <h2 class="section-title">Equipos Contra Incendio</h2>
     <div class="pdf-cards-container">
         <!-- Card 1 -->
         <div class="pdf-card">
             <div class="pdf-card-image">
-                <img src="{{ asset('imagenes/1h.png') }}" alt="Manual de Usuario">
+                <img src="{{ asset('imagenes/1c.png') }}" alt="Manual de Usuario">
                 <div class="download-overlay">
                     <i class="fas fa-download"></i>
                 </div>
             </div>
             <div class="pdf-card-content">
-                <h3>Equipo de Paquete Contra-Incendio</h3>
-                <p> El paquete Contra-incendio INCOSBO incluye 2 o 3 bombas (diésel, eléctrica y jockey) conectadas a un cabezal común para suministrar caudal a redes de hidrantes y/o rociadores.</p>
+                <h3>EQUIPO DE PAQUETE CONTRA-INCENDIO</h3>
+                <p>El paquete Contra-incendio INCOSBO incluye 2 o 3 bombas (diésel, eléctrica y jockey) conectadas a un cabezal de descarga común para suministrar caudal a una red de hidrantes y/o rociadores.</p>
                 <a href="{{ asset('documentos/Ficha Técnica Equipo de Paquete Contraincendio.pdf') }}" download class="download-button">
                     <i class="fas fa-file-pdf"></i> Descargar PDF
                 </a>
@@ -56,15 +57,15 @@
         <!-- Card 2 -->
         <div class="pdf-card">
             <div class="pdf-card-image">
-                <img src="{{ asset('imagenes/2h.png') }}" alt="Catálogo de Productos">
+                <img src="{{ asset('imagenes/2c.png') }}" alt="Catálogo de Productos">
                 <div class="download-overlay">
                     <i class="fas fa-download"></i>
                 </div>
             </div>
             <div class="pdf-card-content">
-                <h3>Contra-Incendio Diesel TC-INCSB-CI-D2M-TCP</h3>
-                <p>Incluye un puerto Ethernet con servidor MODBUS TCP/IP, permitiendo fácil integración a sistemas de supervisión para reportes, gráficos de tendencias, históricos y notificación de alarmas.</p>
-                <a href="{{ asset('documentos/Ficha Técnica TC-INCSB-CI-D2M-TCP.pdf') }}" download class="download-button">
+                <h3>TABLERO DE CONTROL PARA BOMBA CI ELÉCTRICA</h3>
+                <p>El tablero de control INCOSBO cumple con los requisitos de la NFPA No. 20 y está diseñado para operar una bomba acoplada a un motor eléctrico en sistemas contra incendios.</p>
+                <a href="{{ asset('documentos/Ficha Técnica Tablero Bomba CI Eléctrica.pdf') }}" download class="download-button">
                     <i class="fas fa-file-pdf"></i> Descargar PDF
                 </a>
             </div>
@@ -73,14 +74,14 @@
         <!-- Card 3 -->
         <div class="pdf-card">
             <div class="pdf-card-image">
-                <img src="{{ asset('imagenes/3h.png') }}" alt="Ficha Técnica">
+                <img src="{{ asset('imagenes/3c.jpg') }}" alt="Ficha Técnica">
                 <div class="download-overlay">
                     <i class="fas fa-download"></i>
                 </div>
             </div>
             <div class="pdf-card-content">
-                <h3>Tablero de Control para Bomba CI Jockey</h3>
-                <p>Permite gestionar el arranque y paro de una bomba Jockey para mantener la presión en redes contra incendios, cumpliendo con los estándares de la NFPA 20. Está diseñado para motores de baja potencia con control a tensión plena.</p>
+                <h3>TABLERO DE CONTROL PARA BOMBA CI JOCKEY</h3>
+                <p>El tablero de control INCOSBO se utiliza para arrancar y detener una bomba Jockey, manteniendo presurizada una red contra-incendio según la NFPA 20. Está diseñado para un motor de baja potencia y control a tensión plena.</p>
                 <a href="{{ asset('documentos/Ficha Técnica Tablero Jockey.pdf') }}" download class="download-button">
                     <i class="fas fa-file-pdf"></i> Descargar PDF
                 </a>
@@ -90,15 +91,117 @@
         <!-- Card 4 -->
         <div class="pdf-card">
             <div class="pdf-card-image">
-                <img src="{{ asset('imagenes/4h.png') }}" alt="Ficha Técnica">
+                <img src="{{ asset('imagenes/4c.png') }}" alt="Ficha Técnica">
                 <div class="download-overlay">
                     <i class="fas fa-download"></i>
                 </div>
             </div>
             <div class="pdf-card-content">
-                <h3>Tablero de Control para Bomba CI Eléctrica</h3>
-                <p>Cumple con los requisitos de la NFPA 20 y está diseñado para operar una bomba con motor eléctrico en sistemas contra incendios.</p>
-                <a href="{{ asset('documentos/Ficha Técnica Tablero Bomba CI Eléctrica.pdf') }}" download class="download-button">
+                <h3>CONTRA-INCENDIO DIESEL TC-INCSB-CI-D2M-TCP</h3>
+                <p>Los tableros eléctricos TCI-INCSB-D2M-TCP de INCOSBO incluyen un puerto Ethernet con servidor MODBUS TCP/IP, permitiendo integración fácil a sistemas de supervisión y control. Con esta conexión, se pueden generar reportes, gráficos de tendencias, históricos y notificar alarmas.</p>
+                <a href="{{ asset('documentos/Ficha Técnica TC-INCSB-CI-D2M-TCP.pdf') }}" download class="download-button">
+                    <i class="fas fa-file-pdf"></i> Descargar PDF
+                </a>
+            </div>
+        </div>
+
+        <!-- Card 5 -->
+        <div class="pdf-card">
+            <div class="pdf-card-image">
+                <img src="{{ asset('imagenes/5c.png') }}" alt="Ficha Técnica">
+                <div class="download-overlay">
+                    <i class="fas fa-download"></i>
+                </div>
+            </div>
+            <div class="pdf-card-content">
+                <h3>TURBINA VERTICAL CON MOTOR ELÉCTRICO</h3>
+                <p>Las bombas tipo turbina vertical con motor eléctrico INCOSBO están diseñadas para instalarse a un cabezal de descarga común, proporcionando caudal a una red de hidrantes y/o rociadores.</p>
+                <a href="{{ asset('documentos/Ficha Técnica Turbina Vertical Eléctrica.pdf') }}" download class="download-button">
+                    <i class="fas fa-file-pdf"></i> Descargar PDF
+                </a>
+            </div>
+        </div>
+
+        <!-- Card 6 -->
+        <div class="pdf-card">
+            <div class="pdf-card-image">
+                <img src="{{ asset('imagenes/6c.png') }}" alt="Ficha Técnica">
+                <div class="download-overlay">
+                    <i class="fas fa-download"></i>
+                </div>
+            </div>
+            <div class="pdf-card-content">
+                <h3>MOTOR VERTICAL DIESEL</h3>
+                <p>Las bombas contra-incendio verticales diésel INCOSBO están diseñadas para instalarse a un cabezal de descarga común, proporcionando caudal a una red de hidrantes y/o rociadores.</p>
+                <a href="{{ asset('documentos/Ficha Técnica Motor Vertical Diésel.pdf') }}" download class="download-button">
+                    <i class="fas fa-file-pdf"></i> Descargar PDF
+                </a>
+            </div>
+        </div>
+
+        <!-- Card 7 -->
+        <div class="pdf-card">
+            <div class="pdf-card-image">
+                <img src="{{ asset('imagenes/7c.png') }}" alt="Ficha Técnica">
+                <div class="download-overlay">
+                    <i class="fas fa-download"></i>
+                </div>
+            </div>
+            <div class="pdf-card-content">
+                <h3>TABLERO DE CONTROL PARA BOMBA CI DIESEL</h3>
+                <p>Los tableros de control eléctrico INCOSBO están diseñados para controlar motores de combustión interna que impulsan bombas en redes hidráulicas de sistemas contra-incendio, cumpliendo con lo establecido en el panfleto 20 de la NFPA.</p>
+                <a href="{{ asset('documentos/Ficha Técnica Tablero CI Diesel.pdf') }}" download class="download-button">
+                    <i class="fas fa-file-pdf"></i> Descargar PDF
+                </a>
+            </div>
+        </div>
+
+        <!-- Card 8 -->
+        <div class="pdf-card">
+            <div class="pdf-card-image">
+                <img src="{{ asset('imagenes/8c.jpg') }}" alt="Ficha Técnica">
+                <div class="download-overlay">
+                    <i class="fas fa-download"></i>
+                </div>
+            </div>
+            <div class="pdf-card-content">
+                <h3>CONTRA-INCENDIO ELÉCTRICO TC-INCSB-CI-E-TCP</h3>
+                <p>Los tableros eléctricos TC-INCSB-CI-E-TCP de INCOSBO incluyen un puerto Ethernet con servidor MODBUS TCP/IP, permitiendo integración fácil a sistemas de supervisión y control. Con los datos compartidos, es posible crear reportes, generar gráficos de tendencias, históricos y notificar alarmas.</p>
+                <a href="{{ asset('documentos/Ficha Técnica TC-INCSB-CI-E-TCP.pdf') }}" download class="download-button">
+                    <i class="fas fa-file-pdf"></i> Descargar PDF
+                </a>
+            </div>
+        </div>
+
+        <!-- Card 9 -->
+        <div class="pdf-card">
+            <div class="pdf-card-image">
+                <img src="{{ asset('imagenes/9c.jpg') }}" alt="Ficha Técnica">
+                <div class="download-overlay">
+                    <i class="fas fa-download"></i>
+                </div>
+            </div>
+            <div class="pdf-card-content">
+                <h3>BOMBA CONTRA INCENDIO HORIZONTAL DIESEL</h3>
+                <p>Las bombas contra-incendio horizontales diésel INCOSBO están diseñadas para instalarse a un cabezal de descarga común, proporcionando caudal a una red de hidrantes y/o rociadores.</p>
+                <a href="{{ asset('documentos/Ficha Técnica Bomba Horizontal Diesel.pdf') }}" download class="download-button">
+                    <i class="fas fa-file-pdf"></i> Descargar PDF
+                </a>
+            </div>
+        </div>
+
+        <!-- Card 10 -->
+        <div class="pdf-card">
+            <div class="pdf-card-image">
+                <img src="{{ asset('imagenes/10c.jpg') }}" alt="Ficha Técnica">
+                <div class="download-overlay">
+                    <i class="fas fa-download"></i>
+                </div>
+            </div>
+            <div class="pdf-card-content">
+                <h3>BOMBA CONTRA INCENDIO HORIZONTAL ELÉCTRICA</h3>
+                <p>Las bombas contra-incendio horizontales eléctricas INCOSBO están diseñadas para instalarse a un cabezal de descarga común, proporcionando caudal a una red de hidrantes y/o rociadores.</p>
+                <a href="{{ asset('documentos/Ficha Técnica Bomba Horizontal Eléctrica.pdf') }}" download class="download-button">
                     <i class="fas fa-file-pdf"></i> Descargar PDF
                 </a>
             </div>
