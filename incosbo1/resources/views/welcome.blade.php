@@ -90,7 +90,7 @@
         <div class="contact-info">
             <p><i class="fas fa-phone-alt"></i> +52 (123) 456 7890</p>
             <p><i class="fas fa-envelope"></i> <a href="mailto:correo@correo.com">correo@correo.com</a></p>
-            <a href="https://www.google.com/maps/dir//INCOSBO+C.+Tomillo+6+El+Romerillal+76118+Santiago+de+Quer%C3%A9taro,+Qro./@20.6448044,-100.461658,13.75z/data=!4m8!4m7!1m0!1m5!1m1!1s0x85d351b7087f97ad:0x9a95ca5e4f233b99!2m2!1d-100.4641589!2d20.6489759?entry=ttu&g_ep=EgoyMDI0MTAwMi4xIKXMDSoASAFQAw%3D%3D" target="_blank">
+            <a href="https://www.google.com.mx/maps/place/INCOSBO/@20.6489726,-100.4667376,17z/data=!3m1!4b1!4m6!3m5!1s0x85d351b7087f97ad:0x9a95ca5e4f233b99!8m2!3d20.6489676!4d-100.4641627!16s%2Fg%2F11nmp30pbv?entry=ttu&g_ep=EgoyMDI0MTIwOC4wIKXMDSoASAFQAw%3D%3D" target="_blank">
             <p><i class="fas fa-map-marker-alt"></i> C. Tomillo 6, El Romerillal, 76118 </p>
             <p> Santiago de Querétaro, Qro.</p>
             <!-- Sección de redes sociales -->

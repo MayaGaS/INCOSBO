@@ -835,4 +835,104 @@ footer i {
     }
 }
 
-/* ******************** INTERFAZ LIMF ******************** */
+/* ******************** INTERFAZ CONTACTO ******************** */
+
+/* Estilos de la sección de contacto */
+.contact-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.contact-info {
+    flex: 1;
+    padding: 40px;
+}
+
+.contact-info h2 {
+    margin-top: 0;
+}
+
+.contact-details {
+    flex-direction: column;
+    gap: 2px;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+}
+
+.contact-item i {
+    font-size: 24px;
+    margin-right: 10px;
+    color: #010150;
+}
+
+.social-media {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social-button {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    transition: background-color 0.3s ease;
+}
+
+.social-button:hover {
+    background-color: #0056b3;
+}
+
+.contact-form {
+    flex: 1;
+    background-color: #fff;
+    padding: 40px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.contact-form h2 {
+    margin-top: 0;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    background-color: #ec0808;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: #010150;
+}
