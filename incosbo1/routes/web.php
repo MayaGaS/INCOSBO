@@ -18,14 +18,22 @@ Route::get('/contraincendios', function () {
     return view('contraincendios');
 });
 
-Route::get('/servicios', function () {
-    return view('servicios');
-});
-
 Route::get('/contacto', function () {
     return view('contacto');
 });
 
-Route::get('/limf', function () {
-    return view('limf');
+Route::get('/aprobados', function () {
+    return view('aprobados');
+});
+
+Route::get('/obras', function () {
+    return view('obras');
+});
+
+Route::get('/mentenimientos', function () {
+    return view('mantenimientos');
+});
+
+Route::get('/puestas', function () {
+    return view('puestas');
 });

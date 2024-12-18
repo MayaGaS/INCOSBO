@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Equipos Contra Incendios</title>
+    <title>Obras más Relevantes</title>
     <link rel="stylesheet" href="{{ asset('estilos/style.css') }}">
     <!-- Añadir Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
@@ -40,7 +40,7 @@
 
 <!-- HTML para la sección de cards de PDF -->
 <section class="pdf-cards-section">
-    <h2 class="section-title">Equipos Contra Incendio</h2>
+    <h2 class="section-title">Obras más Relevantes</h2>
     <div class="pdf-cards-container">
         <!-- Card 1 -->
         <div class="pdf-card">

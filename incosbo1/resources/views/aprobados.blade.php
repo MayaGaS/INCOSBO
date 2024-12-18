@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Equipos Hidroneumáticos</title>
+    <title>Equipos Aprobados</title>
     <link rel="stylesheet" href="{{ asset('estilos/style.css') }}">
     <!-- Añadir Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
@@ -40,20 +40,20 @@
 
 <!-- HTML para la sección de cards de PDF -->
 <section class="pdf-cards-section">
-    <h2 class="section-title">Equipos Hidroneumáticos</h2>
+    <h2 class="section-title">Equipos Aprobados</h2>
     <div class="pdf-cards-container">
         <!-- Card 1 -->
         <div class="pdf-card">
             <div class="pdf-card-image">
-                <img src="{{ asset('imagenes/1h.png') }}" alt="Manual de Usuario">
+                <img src="{{ asset('imagenes/1l.png') }}" alt="Manual de Usuario">
                 <div class="download-overlay">
                     <i class="fas fa-download"></i>
                 </div>
             </div>
             <div class="pdf-card-content">
-                <h3>EQUIPO HIDRONEUMÁTICO DE PRESIÓN CONSTANTE A BASE DE VELOCIDAD VARIABLE DUPLEX-TRIPLEX</h3>
-                <p> El tablero de control INCOSBO para sistemas hidroneumáticos asegura un suministro de agua estable y constante, manteniendo la presión según el diseño del sistema.</p>
-                <a href="{{ asset('documentos/Ficha Técnica Hidroneumpatico VV.pdf') }}" download class="download-button">
+                <h3>Bombas Contra Incendio</h3>
+                <p> Horizontales de Carcaza Bipartida, Turbina Vertical, En-Línea y Succión al Extremo</p>
+                <a href="{{ asset('documentos/B-1500_Fire Product Line_4-pg Brochure.pdf') }}" download class="download-button">
                     <i class="fas fa-file-pdf"></i> Descargar PDF
                 </a>
             </div>
@@ -62,15 +62,15 @@
         <!-- Card 2 -->
         <div class="pdf-card">
             <div class="pdf-card-image">
-                <img src="{{ asset('imagenes/2h.png') }}" alt="Catálogo de Productos">
+                <img src="{{ asset('imagenes/2l.png') }}" alt="Manual de Usuario">
                 <div class="download-overlay">
                     <i class="fas fa-download"></i>
                 </div>
             </div>
             <div class="pdf-card-content">
-                <h3>TABLERO DE CONTROL PARA SISTEMA DE TRASVASE</h3>
-                <p>Los tableros eléctricos INCOSBO están diseñados para controlar bombas en aplicaciones como trasvase de agua de cisternas a tanques elevados y trenes de filtrado para tratamiento de agua.</p>
-                <a href="{{ asset('documentos/Ficha Técnica Tablero de Trasvase.pdf') }}" download class="download-button">
+                <h3>Soluciones de Bombas Contra Incendios de Grundfos</h3>
+                <p></p>
+                <a href="{{ asset('documentos/L001_Peerless FIre_B-1500 brochure Low res.pdf') }}" download class="download-button">
                     <i class="fas fa-file-pdf"></i> Descargar PDF
                 </a>
             </div>
@@ -79,49 +79,15 @@
         <!-- Card 3 -->
         <div class="pdf-card">
             <div class="pdf-card-image">
-                <img src="{{ asset('imagenes/3h.png') }}" alt="Ficha Técnica">
+                <img src="{{ asset('imagenes/3l.png') }}" alt="Ficha Técnica">
                 <div class="download-overlay">
                     <i class="fas fa-download"></i>
                 </div>
             </div>
             <div class="pdf-card-content">
-                <h3>TABLERO DE CONTROL PARA SISTEMA HIDRONEUMÁTICO O RIEGO</h3>
-                <p>Los tableros eléctricos INCOSBO están diseñados para controlar motobombas en redes hidrosanitarias con suministro desde cisternas, ofreciendo confiabilidad y adaptabilidad.</p>
-                <a href="{{ asset('documentos/Ficha Técnica Tablero Hidroneumático o Riego.pdf') }}" download class="download-button">
-                    <i class="fas fa-file-pdf"></i> Descargar PDF
-                </a>
-            </div>
-        </div>
-
-        <!-- Card 4 -->
-        <div class="pdf-card">
-            <div class="pdf-card-image">
-                <img src="{{ asset('imagenes/4h.png') }}" alt="Ficha Técnica">
-                <div class="download-overlay">
-                    <i class="fas fa-download"></i>
-                </div>
-            </div>
-            <div class="pdf-card-content">
-                <h3>TABLERO DE CONTROL PARA LLENADO DE CISTERNA</h3>
-                <p>Los tableros INCB-TCA-110-S-P INCOSBO controlan el llenado de cisternas o tanques en redes de suministro de agua, con un diseño confiable y adaptable.</p>
-                <a href="{{ asset('documentos/Ficha Técnica Tablero Solenoide.pdf') }}" download class="download-button">
-                    <i class="fas fa-file-pdf"></i> Descargar PDF
-                </a>
-            </div>
-        </div>
-
-        <!-- Card 5 -->
-        <div class="pdf-card">
-            <div class="pdf-card-image">
-                <img src="{{ asset('imagenes/5h.png') }}" alt="Ficha Técnica">
-                <div class="download-overlay">
-                    <i class="fas fa-download"></i>
-                </div>
-            </div>
-            <div class="pdf-card-content">
-                <h3>TABLERO DE CONTROL PARA VACIADO DE CÁRCAMO</h3>
-                <p>Los tableros eléctricos INCOSBO automatizan el achique de depósitos o cárcamos usando peras de nivel, con opción para alternar o activar las bombas simultáneamente.</p>
-                <a href="{{ asset('documentos/Ficha Técnica Tablero Vaciado de Cárcamo.pdf') }}" download class="download-button">
+                <h3>PES</h3>
+                <p>Peerleess Engineered Systems</p>
+                <a href="{{ asset('documentos/PEERLESS-Brochure_9-08.pdf') }}" download class="download-button">
                     <i class="fas fa-file-pdf"></i> Descargar PDF
                 </a>
             </div>

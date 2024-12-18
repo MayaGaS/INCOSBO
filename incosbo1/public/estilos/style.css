@@ -230,8 +230,8 @@ footer {
 footer a, 
 footer p, 
 footer i {
-    color: white;
-    /* text-decoration: none; /* Elimina el subrayado de los enlaces */
+color: white;
+text-decoration: none; /* Elimina el subrayado de los enlaces */
 }
 .contact-info, .address {
     margin-bottom: 1rem;
